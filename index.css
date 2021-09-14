@@ -1,72 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Noto Sans KR", sans-serif;
 }
 
-section {
-    position: relative;
+.navbar {
+    background-color: #003300;
+    border-bottom: 0.5px solid white;
     width: 100%;
-    min-height: 100vh;
-    display: inline-block;
-    flex-direction: column;
-    background: #c8d6e5;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Besley';
 }
 
-footer {
-    position: relative;
-    width: 100%;
-    padding: 20px;
-    background-color: #222f3e;
-}
-
-header {
-    position: relative;
-    top: 0%;
-    width: 100%;
-    padding: 30px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #222f3e;
-    border-bottom: 4px solid white;
-}
-
-header .MyPage {
-    position: relative;
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
+.MyPage {
     text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-header .navigation a{
-    color: white;
-    background: #222f3e;
+.navbar a{
     text-decoration: none;
-    font-weight: 500;
-    letter-spacing: 1px;
-    padding: 2px 15px;
-    border-radius: 15px;
-    transition: 0.3s;
-    transition-property: background;
+    color: white;
 }
 
-header .navigation a:not(:last-child) {
-    margin-right: 30px;
+.navbar ul {
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 50px;
 }
 
-header .navigation a:hover{
-    background: white;
-    color: black;
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+.navbar ul li a:hover {
+    background-color: #4c8c4a;
+}
+
+body {
+    background-color: #d7ffd9;
 }
 
 .content {
-    
+    font-family: 'Besley';
+    color: black;
+    margin-top: 40%;
+    margin-left: 100px;
 }
 
+h1 {
+    font-size: 70px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    margin-top: -250px;
+    margin-left: 770px;
+    width: 30%;
+}

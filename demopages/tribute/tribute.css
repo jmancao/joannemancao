@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #0b0b10;
+    border-bottom: 0.5px solid white;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Besley';
+}
+
+.MyPage {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 50px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+.navbar ul li a:hover {
+    background-color: gray;
+}
+
+body {
+    font-family: 'Besley';
+    font-size: 20px;
+    margin-top: 80px;
+}
+  
+#main {
+    max-width: 1920px;
+    max-height: 150%;
+    padding: 40px;
+    background-color: #c5c6c7;
+}
+  
+#title {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+  
+#main > p {
+    margin-top: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+  
+#img-div{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+  
+#image {
+    display: block;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+  
+#tribute-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+#tribute-info > h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#tribute-info > p {
+    text-align: justify;
+    margin-top: 2px;
+    font-size: 15px;
+}
+  
+h5 {
+    text-align: center;
+    
+}
+
+#link {
+    color: black;
+}

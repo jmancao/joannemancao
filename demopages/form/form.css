@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Besley';
+}
+
+.navbar {
+    background-color: #1b0000;
+    border-bottom: 0.5px solid white;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Besley';
+}
+
+.MyPage {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 50px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+.navbar ul li a:hover {
+    background-color: #be9c91;
+}
+
+body {
+    background-color: #efdcd5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 330px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px 35px 10px 35px;
+}
+
+.container header{ 
+    font-size: 25px;
+    font-weight: 600;
+    margin: 100px 0 30px 0;
+}
+.container .form-outer {
+    width: 100%;
+}
+.form-outer {
+    display: flex;
+    width: 400%;
+}
+.form-outer form .page {
+    width: 25%;
+}
+.form-outer form .page title {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form-outer form .page .field {
+    height: 45px;
+    width: 330px;
+    margin: 45px 0;
+}

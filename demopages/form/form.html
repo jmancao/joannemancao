@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Besley:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="MyPage"> My Page </a>
+            <ul>
+                <li> <a href="D:\2ND YEAR 1ST TERM\Web App Development\Web page\joannemancao\index.html">Home</a> </li>
+                <li> <a href="..\tribute\tribute.html">Tribute </a> </li>
+                <li> <a href="#">Gallery</a> </li>
+                <li> <a href="..\restaurant\restaurant.html">Restaurant</a> </li>
+                <li> <a href="form.html">Form</a> </li>
+            </ul>
+    </nav>  
+    <div class="container">
+      <header>Vaccination Scheduling Form</header>
+        <div class="form-outer">
+          <form action="#">
+            <div class="page">
+              <div class="title">Personal Info:</div>
+              <div class="field">
+                <div class="label">First Name</div>
+                  <input type="text">
+              </div>
+              <div class="field">
+                <div class="label">Last Name</div>
+                  <input type="text">
+              </div>
+              <div class="field">
+                <div class="label">Address</div>
+                  <input type="text">
+              </div>
+              <div class="field">
+                <div class="label">Birthdate</div>
+                  <input type="date" name="date" id="date" min="1960-12-31">
+              </div>
+              <div class="field">
+                <div class="label">Age</div>
+                  <input type="number">
+              </div>
+              <div class="field">
+                <div class="label">Gender</div>
+                  <select>
+                    <option"> Male </option>
+                    <option"> Female </option>
+                    <option"> Other </option>
+                  </select>
+              </div>
+
+
+                <div class="title">Contact Info:</div>
+                <div class="field">
+                  <div class="label">Email Address</div>
+                    <input type="text">
+                </div>
+                <div class="field">
+                  <div class="label">Contact Number</div>
+                    <input type="number">
+                
+                  <div class="title">Schedule Info:</div>
+                  <div class="field">
+                    <div class="label">Location</div>
+                      <input type="text">
+                  </div>
+                  <div class="field">
+                    <div class="label">Time</div>
+                      <input type="text">
+                  </div>
+                  <div class="field-btns">
+                    <button class="submit"> Submit </button>
+                  </div>
+                      
+                    
+
+            </div>
+          </form>
+        </div>
+    </div>
+
+
+
+
+
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="200" step="5">
+      </div>
+      <div>
+        <label for="date">Birthdate</label>
+        <input type="date" name="date" id="date" min="2019-06-10">
+      </div>
+      <div>
+        Favorite Food
+        <div>
+          <label for="banana">Banana</label>
+          <input type="checkbox" name="banana" id="banana">
+        </div>
+        <div>
+          <label for="apple">Apple</label>
+          <input type="checkbox" name="apple" id="apple">
+        </div>
+      </div>
+      <div>
+        Gender
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male">
+        </div>
+        <div>
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female">
+        </div>
+      </div>
+      <div>
+        <label for="eyeColor">Eye Color</label>
+        <select name="eyeColor" id="eyeColor" multiple>
+          <option value="Green">Green</option>
+          <option label="Red" value="Red"></option>
+        </select>
+      </div>
+      <div>
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio"></textarea>
+      </div>
+      <input type="hidden" name="hidden" value="hi">
+      <div>
+        <label for="file">File</label>
+        <input id="file" type="file" name="file">
+      </div>
+      <div>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+      <div>
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url">
+      </div>
+      <div>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color">
+      </div>
+      <div>
+        <label>
+          Password
+          <input type="password" name="password" required>
+        </label>
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
