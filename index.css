@@ -2,83 +2,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Besley';
 }
-
 .navbar {
-    background-color: #003300;
-    border-bottom: 0.5px solid white;
+    background-color: #F2BBC5;
     width: 100%;
     line-height: 80px;
     height: 80px;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 30px;
     position: absolute;
     top: 0;
     left: 0;
     font-family: 'Besley';
+    display: block;
 }
-
 .MyPage {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
+    color: white;
+    cursor: none;
 }
-
 .navbar a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
-
 .navbar ul {
     float: right;
     list-style: none;
     height: inherit;
     line-height: inherit;
-    padding: 0 50px;
+    padding: 0 20px;
 }
-
 .navbar ul li {
     display: inline-block;
 }
-
 .navbar ul li a {
     display: block;
     text-align: center;
     min-width: 120px;
     padding: 0 30px;
 }
-
 .navbar ul li a:hover {
-    background-color: #4c8c4a;
+    background-color: #F2D5D5;
+    color: white;
 }
-
 body {
-    background-color: #d7ffd9;
-}
-
-.content {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
     font-family: 'Besley';
-    color: black;
-    margin-top: 40%;
-    margin-left: 100px;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/job545-wit-20.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b46c9c3bc7b91a0874be7730d51abc6b);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 50px 50px 50px;
 }
-
 h1 {
-    font-size: 70px;
+    font-size: 50px;
 }
-
 p {
     margin-top: 10px;
     font-size: 20px;
 }
-
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 img {
-    margin-top: -250px;
-    margin-left: 770px;
-    width: 30%;
+    margin-left: 1000px;
+    width: 20%;
+    display: flex;
+    position: relative;
+}
+#container {
+    height: 150vh;
+    width: 1000%;
+    background-color: #d8c4e4;
+    border-radius: 15px;
+    position: relative;
+}
+.content {
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+    margin: 50px 50px 50px 50px;
 }

@@ -17,153 +17,104 @@
                 <li> <a href="#">Gallery</a> </li>
                 <li> <a href="..\restaurant\restaurant.html">Restaurant</a> </li>
                 <li> <a href="form.html">Form</a> </li>
+                <li> <a href="../Review/myreviewonecmascript.html">Review</a> </li>
             </ul>
     </nav>  
     <div class="container">
-      <header>Vaccination Scheduling Form</header>
-        <div class="form-outer">
-          <form action="#">
-            <div class="page">
-              <div class="title">Personal Info:</div>
-              <div class="field">
-                <div class="label">First Name</div>
-                  <input type="text">
+      <div class="headr">
+        <h1>Vaccination Scheduling Form</h1>  
+      </div>
+        <div class="main">
+          <form>
+              <div class="title">
+                <h3>Personal Info:</h3>
               </div>
-              <div class="field">
-                <div class="label">Last Name</div>
-                  <input type="text">
-              </div>
-              <div class="field">
-                <div class="label">Address</div>
-                  <input type="text">
-              </div>
-              <div class="field">
-                <div class="label">Birthdate</div>
-                  <input type="date" name="date" id="date" min="1960-12-31">
-              </div>
-              <div class="field">
-                <div class="label">Age</div>
-                  <input type="number">
-              </div>
-              <div class="field">
-                <div class="label">Gender</div>
-                  <select>
-                    <option"> Male </option>
-                    <option"> Female </option>
-                    <option"> Other </option>
-                  </select>
-              </div>
-
-
-                <div class="title">Contact Info:</div>
-                <div class="field">
-                  <div class="label">Email Address</div>
-                    <input type="text">
+              <div id="label">
+                  <h4 class="name">Name</h4>
+                  <input type="text" class="fname" name="firstname" placeholder="First Name" required>
+                  <input type="text" class="mname" name="middlename" placeholder="Middle Name" required>
+                  <input type="text" class="lname" name="lastname" placeholder="Last Name" required>
                 </div>
-                <div class="field">
-                  <div class="label">Contact Number</div>
-                    <input type="number">
-                
-                  <div class="title">Schedule Info:</div>
-                  <div class="field">
-                    <div class="label">Location</div>
-                      <input type="text">
+                <div id="address">
+                  <h4>Address</h4>
+                  <input type="text" class="address" name="address" placeholder="Blk/Street/Barangay/City/Province" required>
+                </div>
+                <div id="age">
+                  <h4>Age</h4>
+                  <input type="number" class="age" name="address" min="18" max="40" required>
+                </div>
+                <div id="birthdate">
+                  <h4>Birthdate</h4>
+                  <input type="date" class="date" name="date" min="1960-12-31" required>
+                </div>
+                <div id="gender">
+                  <h4>Gender</h4>
+                  <div class="ch1">
+                    <input type="radio" class="male" name="male">
+                    <label for="male">Male</label>
+                    <input type="radio" class="female" name="female">
+                    <label for="female">Female</label>
+                    <input type="radio" class="others" name="others">
+                    <label for="others">Others</label>
                   </div>
-                  <div class="field">
-                    <div class="label">Time</div>
-                      <input type="text">
-                  </div>
-                  <div class="field-btns">
-                    <button class="submit"> Submit </button>
-                  </div>
-                      
-                    
+                </div>
 
-            </div>
+              <div class="title">
+                <h3>Contact Info:</h3>
+              </div>
+                <div id="emailadd">
+                  <h4>Email Address</h4>
+                    <input type="text" class="emailadd" name="eaddress" placeholder="johnnybravo@gmail.com" required>
+                </div>
+                <div id="cnumber">
+                  <h4>Contact Number</h4>
+                    <input type="tel" class="cnumber" name="cnumber" placeholder="09*********" required>
+                </div>
+              <div class="title">
+                <h3>Preference:</h3>
+              </div>
+                <div id="vaccine">
+                  <h4>Vaccine</h4>
+                </div>  
+              <select class="vac" name="subject">
+                <option disabled="disabled" selected="selected">Choose Option</option>
+                <option>Pfizer</option>
+                <option>AstraZeneca</option>
+                <option>Sinovac</option>
+                <option>Sputnik V</option>
+                <option>Moderna</option>
+                <option>Janssen</option>
+              </select>
+              <div id="location">
+                  <h4>Location</h4>
+              </div>
+              <select class="loc" name="subject">
+                <option disabled="disabled" selected="selected">Choose Option</option>
+                <option>SM Lanang</option>
+                <option>SM Ecoland</option>
+                <option>People's Park</option>
+                <option>Gaisano Mall of Davao</option>
+              </select>
+              <div id="time">
+                  <h4>Time</h4>
+                </div>
+              <select class="ptime" name="subject">
+                <option disabled="disabled" selected="selected">Choose Option</option>
+                <option>4AM - 7AM</option>
+                <option>8AM - 11AM</option>
+                <option>12PM - 3PM</option>
+                <option>3PM - 6PM</option>
+              </select>
+                    
+              <div class="field-btns">
+                <button class="reset" type="reset"> Reset </button>
+              </div>  
+              <div class="field-btns">
+                <button class="submit" type="submit"> Submit </button>
+              </div>    
           </form>
-        </div>
+      </div>
     </div>
 
-
-
-
-
-    <form action="results.html" method="GET" enctype="multipart/form-data">
-        <div>
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" required>
-      </div>
-      <div>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required>
-      </div>
-      <div>
-        <label for="age">Age</label>
-        <input type="number" name="age" id="age" min="1" max="200" step="5">
-      </div>
-      <div>
-        <label for="date">Birthdate</label>
-        <input type="date" name="date" id="date" min="2019-06-10">
-      </div>
-      <div>
-        Favorite Food
-        <div>
-          <label for="banana">Banana</label>
-          <input type="checkbox" name="banana" id="banana">
-        </div>
-        <div>
-          <label for="apple">Apple</label>
-          <input type="checkbox" name="apple" id="apple">
-        </div>
-      </div>
-      <div>
-        Gender
-        <div>
-          <label for="male">Male</label>
-          <input type="radio" name="gender" id="male" value="male">
-        </div>
-        <div>
-          <label for="female">Female</label>
-          <input type="radio" name="gender" id="female" value="female">
-        </div>
-      </div>
-      <div>
-        <label for="eyeColor">Eye Color</label>
-        <select name="eyeColor" id="eyeColor" multiple>
-          <option value="Green">Green</option>
-          <option label="Red" value="Red"></option>
-        </select>
-      </div>
-      <div>
-        <label for="bio">Bio</label>
-        <textarea id="bio" name="bio"></textarea>
-      </div>
-      <input type="hidden" name="hidden" value="hi">
-      <div>
-        <label for="file">File</label>
-        <input id="file" type="file" name="file">
-      </div>
-      <div>
-        <label for="phone">Phone</label>
-        <input type="tel" name="phone" id="phone">
-      </div>
-      <div>
-        <label for="url">URL</label>
-        <input type="url" name="url" id="url">
-      </div>
-      <div>
-        <label for="color">Color</label>
-        <input type="color" name="color" id="color">
-      </div>
-      <div>
-        <label>
-          Password
-          <input type="password" name="password" required>
-        </label>
-      </div>
-      <button type="reset">Reset</button>
-      <button type="submit">Submit</button>
-    </form>
-    
 </body>
 </html>
