@@ -67,20 +67,56 @@ p {
     font-size: 20px;
 }
 img {
-    margin-left: 1000px;
+    margin-top: -500px;
+    margin-left: 900px;
     width: 20%;
     display: flex;
     position: relative;
 }
 #container {
-    height: 150vh;
+    height: 200vh;
     width: 1000%;
     background-color: #d8c4e4;
     border-radius: 15px;
     position: relative;
+    padding: 20px 50px 20px 50px;
 }
 .content {
-    text-align: justify;
-    padding: 20px 20px 20px 20px;
-    margin: 50px 50px 50px 50px;
+    justify-content: space-around;
+    margin: 50px 100px 50px 50px;
+    padding: 500px 20px 20px 20px;
+}
+.table-box {
+    margin: 50px auto;
+}
+.table-row {
+    display: table;
+    width: 60%;
+    margin: 10px auto;
+    font-family: Arvo;
+    background: transparent;
+    padding: 12px 0;
+    font-size: 14px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+}
+.table-head {
+    background: #fde395;
+}
+.table-head p {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 30px;
+}
+.table-cell {
+    font-size: 20px;
+    color: #7e7769;
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid;
+    vertical-align: middle;
+}
+.table-head .table-cell {
+    border-right: none;
 }
