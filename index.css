@@ -125,6 +125,7 @@ img {
     background-color: #fde395;
     padding: 20px 20px;
     align-content: center;
+    margin-top: -50px;
 }
 .link h3 {
     display: block;
