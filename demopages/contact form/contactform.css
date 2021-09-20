@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Besley';
+}
+.navbar {
+    background-color: #F2BBC5;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 20px;
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Besley';
+    display: block;
+}
+.MyPage {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul {
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 20px;
+}
+.navbar ul li {
+    display: inline-block;
+}
+.navbar ul li a {
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+.navbar ul li a:hover {
+    background-color: #F2D5D5;
+    color: white;
+}
+body {
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Besley';
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/job545-wit-20.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b46c9c3bc7b91a0874be7730d51abc6b);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: #d8c4e4;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 45px;
+  }
+  
+  .container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+  }
+  
+  .container .input_field{
+    margin-bottom: 10px;
+  }
+  
+  .container .input_field input[type="text"],
+  .container textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .container textarea{
+    resize: none;
+    height: 80px;
+  }
+  
+  .container .button input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: #fde395;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  #error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }

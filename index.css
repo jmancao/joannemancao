@@ -68,13 +68,13 @@ p {
 }
 img {
     margin-top: -500px;
-    margin-left: 900px;
-    width: 20%;
+    margin-left: 450px;
+    width: 25%;
     display: flex;
     position: relative;
 }
 #container {
-    height: 200vh;
+    height: 220vh;
     width: 1000%;
     background-color: #d8c4e4;
     border-radius: 15px;
@@ -87,36 +87,50 @@ img {
     padding: 500px 20px 20px 20px;
 }
 .table-box {
-    margin: 50px auto;
+    margin: 25px auto;
 }
 .table-row {
     display: table;
     width: 60%;
-    margin: 10px auto;
-    font-family: Arvo;
-    background: transparent;
-    padding: 12px 0;
-    font-size: 14px;
-    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+    margin: 10px auto;;
+    background: white;
+    padding: 10px 0;
+    font-size: 15px;
+    box-shadow: 0 4px rgba(51, 45, 45, 0.3);
 }
 .table-head {
     background: #fde395;
 }
 .table-head p {
-    color: whitesmoke;
+    color: black;
     font-weight: 600;
     font-size: 30px;
 }
 .table-cell {
     font-size: 20px;
-    color: #7e7769;
+    color: black;
     display: table-cell;
     width: 30%;
     text-align: center;
     padding: 4px 0;
-    border-right: 1px solid;
     vertical-align: middle;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 .table-head .table-cell {
     border-right: none;
+    border-left: none;
+}
+.link {
+    background-color: #fde395;
+    padding: 20px 20px;
+    align-content: center;
+}
+.link h3 {
+    display: block;
+}
+.link a {
+    color: black;
+    font-size: 20px;
+    margin: 550px;
 }
