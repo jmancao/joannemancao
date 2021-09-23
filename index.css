@@ -22,7 +22,6 @@
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
-    color: white;
     cursor: none;
 }
 .navbar a{
@@ -79,12 +78,12 @@ img {
     background-color: #d8c4e4;
     border-radius: 15px;
     position: relative;
-    padding: 20px 50px 20px 50px;
+    padding: 30px 50px 20px 50px;
+    margin: -65px 0px 20px 0px;
 }
 .content {
-    justify-content: space-around;
-    margin: 50px 100px 50px 50px;
-    padding: 500px 20px 20px 20px;
+    margin: 520px 100px 50px 50px;
+    padding: 20px 20px 20px 20px;
 }
 .table-box {
     margin: 25px auto;
@@ -134,4 +133,7 @@ img {
     color: black;
     font-size: 20px;
     margin: 550px;
+}
+#content {
+    text-align: justify;
 }

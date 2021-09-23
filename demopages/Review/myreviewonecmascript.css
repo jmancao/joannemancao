@@ -22,7 +22,6 @@
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
-    color: white;
     cursor: none;
 }
 .navbar a{
@@ -57,10 +56,10 @@ body {
     background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/job545-wit-20.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b46c9c3bc7b91a0874be7730d51abc6b);
     background-size: cover;
     background-attachment: fixed;
-    padding: 100px 50px 50px 50px;
+    padding: 40px 50px 50px 50px;
 }
 .container .main {
-    height: 210vh;
+    height: 280vh;
     width: 1200px;
     background-color: #d8c4e4;
     border-radius: 15px;
@@ -74,5 +73,9 @@ body {
 }
 section {
     padding: 20px 20px 20px 20p;
-    margin:  50px 20px 20px 20px;
+    margin:  10px 20px 20px 20px;
+    text-align: center;
+}
+section p {
+    text-align: justify;
 }

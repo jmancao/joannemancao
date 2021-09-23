@@ -24,7 +24,7 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    if(email.indexOf("@") == -1 || email.length < 6){
+    if(email.indexOf("@") == -1 || email.length < 20){
       text = "Please Enter valid Email";
       error_message.innerHTML = text;
       return false;
@@ -36,4 +36,4 @@ function validate(){
     }
     alert("Submitted Successfully!");
     return true;
-  }
+    }

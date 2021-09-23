@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Besley';
+}
+.navbar {
+    background-color: #F2BBC5;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 20px;
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Besley';
+    display: block;
+}
+.MyPage {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul {
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 20px;
+}
+.navbar ul li {
+    display: inline-block;
+}
+.navbar ul li a {
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+.navbar ul li a:hover {
+    background-color: #F2D5D5;
+    color: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Besley';
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/job545-wit-20.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b46c9c3bc7b91a0874be7730d51abc6b);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px 20px 20px;
+}
+section .container {
+    height: 90vh;
+    width: 1200px;
+    background-color: #d8c4e4;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px 50px 20px 50px;
+    margin: 30px 0px 20px 0px;
+}
