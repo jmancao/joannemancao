@@ -22,7 +22,7 @@
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
-    cursor: none;
+    color: white;
 }
 .navbar a{
     text-decoration: none;
@@ -49,54 +49,12 @@
     color: white;
 }
 body {
+    margin-top: 110px;
     display: flex;
+    align-items: center;
     justify-content: center;
     font-family: 'Besley';
     background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/job545-wit-20.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b46c9c3bc7b91a0874be7730d51abc6b);
     background-size: cover;
     background-attachment: fixed;
-    padding: 100px 20px 20px 20px;
-}
-.container {
-    height: 70vh;
-    width: 1140px;
-    background-color: #d8c4e4;
-    border-radius: 15px;
-    position: relative;
-    padding: 20px 50px 20px 50px;
-    margin: 40px 0px 20px 0px;
-}
-.box-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 1rem auto;
-    width: 80%;
-}
-.box-container .box{
-    height: 250px;
-    width: 250px;
-    border-radius: 1px;
-    margin: 20px 5px 25x 5px;
-    cursor: pointer;
-    position: relative;
-    box-shadow: 0 0 .5rem #363024;
-}
-.box-container img {
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
-}
-.info {
-    color: black;
-    text-align: center;
-    font-size: 17px;
-    text-transform: uppercase;
-}
-#title {
-    text-align: center;
-    font-size: 27px;
-    text-transform: uppercase;
 }

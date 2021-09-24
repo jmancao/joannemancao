@@ -58,13 +58,23 @@ body {
     padding: 100px 20px 20px 20px;
 }
 .container {
-    height: 70vh;
+    height: 150vh;
     width: 1140px;
     background-color: #d8c4e4;
     border-radius: 15px;
     position: relative;
     padding: 20px 50px 20px 50px;
     margin: 40px 0px 20px 0px;
+}
+.info {
+    color: black;
+    text-align: center;
+    font-size: 17px;
+}
+#title {
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
 }
 .box-container{
     display: flex;
@@ -73,30 +83,61 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 1rem auto;
-    width: 80%;
+    width: 70%;
 }
 .box-container .box{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     border-radius: 1px;
-    margin: 20px 5px 25x 5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     cursor: pointer;
     position: relative;
-    box-shadow: 0 0 .5rem #363024;
+    box-shadow: 0 0 .5rem #333;
+}
+.box .button:hover {
+    transform: scale(0);
 }
 .box-container img {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     object-fit: cover;
 }
 .info {
     color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #abdaba;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    transform: scale(0);
+}
+.info p {
+    font-size: 15px;
+    border-bottom: 4px solid #fde395;
+    border-top: 4px solid #fde395;
+    margin:50px 10px;
+}
+a {
+    color: white;
     font-size: 17px;
+    text-decoration: underline;
+    margin-top: -30px;
+}
+.box:hover .info{
+    transform: scale(1);
+}
+.title strong {
+    font-size: 17px;
+    color:black;
     text-transform: uppercase;
 }
-#title {
+.title {
     text-align: center;
-    font-size: 27px;
-    text-transform: uppercase;
 }
