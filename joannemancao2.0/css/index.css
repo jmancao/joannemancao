@@ -1,0 +1,16 @@
+.bg {
+    background-color: lightgrey;
+}
+.table {
+    color: black;
+}
+.head {
+    background-color: #ffc107;
+}
+.tbody {
+    background-color: lightgrey;
+}
+#map {
+    width:100%;
+    height:100%;
+}
